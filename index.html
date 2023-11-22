@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadya's Colorful Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec; /* Light Pink */
+        }
+
+        header {
+            background-color: #4CAF50; /* Green */
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #4CAF50; /* Green */
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+            background-color: #f8bbd0; /* Lighter Pink on Hover */
+        }
+
+        .review {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .review:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background-color: #a5d6a7; /* Lighter Green on Hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nadya's  Website</h1>
+    </header>
+
+    <section id="projects">
+        <h2 style="color: #4CAF50;">Projects</h2>
+        <div class="project">
+            <h3 style="color: #e91e63;">Project 1</h3>
+            <p>Description of Project 1.</p>
+        </div>
+
+        <div class="project">
+            <h3 style="color: #e91e63;">Project 2</h3>
+            <p>Description of Project 2.</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+
+    <section id="reviews">
+        <h2 style="color: #4CAF50;">Reviews</h2>
+        <div class="review">
+            <h3 style="color: #673ab7;">Client 1</h3>
+            <p>Review from Client 1.</p>
+        </div>
+
+        <div class="review">
+            <h3 style="color: #673ab7;">Client 2</h3>
+            <p>Review from Client 2.</p>
+        </div>
+        <!-- Add more review sections as needed -->
+    </section>
+</body>
+</html>
